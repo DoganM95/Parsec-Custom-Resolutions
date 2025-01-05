@@ -31,6 +31,7 @@ Create a custom resolution, that is not listed anywhere:
 - set `server_resolution_x` to the width in pixels of the resolution decided on
 - Set `server_resolution_y` to the respective height
 - set `encoder_fps` to the respective refresh rate
+- Save the file
 
 ## Persist custom resolution
 

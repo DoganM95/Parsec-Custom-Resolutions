@@ -12,7 +12,7 @@ This is my personal guide and assumes only one client, e.g. a laptop is used to 
 
 Pick one of the resolutions in this repo and run the .reg file
 
-## Option 2:
+### Option 2:
 
 Create a custom resolution, that is not listed anywhere:
 

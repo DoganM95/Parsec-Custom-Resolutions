@@ -8,6 +8,14 @@ This is my personal guide and assumes only one client, e.g. a laptop is used to 
 
 ## Create a custom resolution
 
+### Option 1: 
+
+Pick one of the resolutions in this repo and run the .reg file
+
+## Option 2:
+
+Create a custom resolution, that is not listed anywhere:
+
 - Open `regedit.exe` and navigate to (or create) `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Parsec\vdd`
 - Create a new key, that contains only a number, e.g. `0`, if it already exists pick the next available number, avoid duplicates
 - Create the following `DWORD (32-Bit)` values:

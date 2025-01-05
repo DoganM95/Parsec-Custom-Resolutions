@@ -1,7 +1,7 @@
 # Intro
 
 Parsec is a remote desktop tool like teamviewer, but does not allow custom resolutions by default, so the user has to stick to the default ones. 
-Example: laptop has a 19:10 ratio with 3840x2400 pixels, which is not listed. Creating a custom resolution would enable using the full screen.
+Example: laptop has a 16:10 ratio with 3840x2400 pixels, which is not listed. Creating a custom resolution would enable using the full screen.
 This is my personal guide and assumes only one client, e.g. a laptop is used to connect to the host machine.
 
 # Setup

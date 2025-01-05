@@ -1,0 +1,7 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Parsec\vdd\0]
+"width"=dword:00000d80
+"height"=dword:00000870
+"hz"=dword:00000090
+

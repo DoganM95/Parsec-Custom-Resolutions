@@ -40,3 +40,17 @@ After a reconnect to the host, the resolution will automatically revert so somet
 - Ensure custom resolution data is set in `config.json`
 - Right-click on `C:\ProgramData\Parsec\config.json` and open its Properties
 - Check `Read-only`, apply and click OK
+
+# Bonus
+
+## Audio workaround
+
+If the host machine has a headset, headphones or whatever conencted, the audio will be forwarded to the client.  
+If the host has no audio device attached though, the client will hear nothing, even if host's volume is 100%.
+
+To fix this, either headphones can be plugged in on the host, or a dummy headphone can be built like this:
+- Get an aux port that can be soldered
+- Conenct Left with GND using a 100 Ohm resistor
+- Connect Right with GND using a 100 Ohm resistor
+- Plug the dummy headphone into the host machine
+- Check if the host shows a notification like "Headphones plugged in"

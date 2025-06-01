@@ -6,9 +6,7 @@ This is my personal guide and assumes only one client, e.g. a laptop is used to 
 
 # Setup
 
-Flowwoling steps are to be executed on the host (the pc to be controlled)
-
-## Create a custom resolution
+## Create a custom resolution (On Host PC)
 
 ### Option 1: 
 
@@ -25,7 +23,7 @@ Create a custom resolution, that is not listed anywhere:
   - Name: `width`, Value: width in pixels with decimal base
   - Name: `hz`, Value: screen refresh rate (Hertz) with decimal base
 
-## Set custom resolution
+## Set custom resolution (On Client PC)
 
 - Decide on one custom resolution created, that should always be used
 - Open either of these two, depending on which exists
@@ -34,6 +32,7 @@ Create a custom resolution, that is not listed anywhere:
 - set `server_resolution_x` to the width in pixels of the resolution decided on
 - Set `server_resolution_y` to the respective height
 - set `encoder_fps` to the respective refresh rate
+- Make sure the custom res is used, by using `Use Client Resolution`
 
 ## Persist custom resolution
 

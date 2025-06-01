@@ -6,6 +6,8 @@ This is my personal guide and assumes only one client, e.g. a laptop is used to 
 
 # Setup
 
+Flowwoling steps are to be executed on the host (the pc to be controlled)
+
 ## Create a custom resolution
 
 ### Option 1: 
@@ -26,20 +28,19 @@ Create a custom resolution, that is not listed anywhere:
 ## Set custom resolution
 
 - Decide on one custom resolution created, that should always be used
-- `C:\ProgramData` is a hidden folder, google how to show it
-- Open `C:\ProgramData\Parsec\config.json`
+- Open either of these two, depending on which exists
+  - `C:\ProgramData\Parsec\config.json`
+  - `C:\Users\%USERPROFILE%\AppData\Roaming\Parsec`
 - set `server_resolution_x` to the width in pixels of the resolution decided on
 - Set `server_resolution_y` to the respective height
 - set `encoder_fps` to the respective refresh rate
-- Save the file
 
 ## Persist custom resolution
 
 After a reconnect to the host, the resolution will automatically revert so something standard by parsec. To persist the custom resolution, the file needs to be set `read-only`, to prevent parsec from modifying it.
 
 - Ensure custom resolution data is set in `config.json`
-- Right-click on `C:\ProgramData\Parsec\config.json` and open its Properties
-- Check `Read-only`, apply and click OK
+- Make the file `Read-only`
 
 # Bonus
 
